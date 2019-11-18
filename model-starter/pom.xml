@@ -5,15 +5,23 @@
 
 	<parent>
 		<groupId>com.abeldevelop.architecture</groupId>
-		<artifactId>abeldevelop-parent-pom</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+        <artifactId>abeldevelop-parent-pom</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
 	</parent>
 
+    <groupId>com.abeldevelop.architecture.starter</groupId>
     <artifactId>model-starter</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-	<dependencies>
+    <properties>
 
+    </properties>
+
+	<dependencies>
+         <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>javax.persistence-api</artifactId>
+        </dependency>
 	</dependencies>
 
 	<build>

@@ -9,11 +9,19 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
+    <groupId>com.abeldevelop.architecture.starter</groupId>
     <artifactId>dto-starter</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
 	<dependencies>
-
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+		<dependency>
+		    <groupId>javax.validation</groupId>
+		    <artifactId>validation-api</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
