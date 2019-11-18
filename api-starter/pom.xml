@@ -9,11 +9,15 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
+    <groupId>com.abeldevelop.architecture.starter</groupId>
     <artifactId>api-starter</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
 	<dependencies>
-
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
 	</dependencies>
 
 	<build>
