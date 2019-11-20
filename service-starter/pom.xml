@@ -14,6 +14,12 @@
     <version>0.0.1-SNAPSHOT</version>
 
 	<dependencies>
+        <!-- ABELDEVELOP DEPENDENCIES -->
+        <dependency>
+            <groupId>com.abeldevelop.architecture.library</groupId>
+            <artifactId>common-library</artifactId>
+        </dependency>
+            
 		<!-- SPRING DEPENDENCIES -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
