@@ -17,7 +17,7 @@
         <!-- ABELDEVELOP DEPENDENCIES -->
         <dependency>
             <groupId>com.abeldevelop.architecture.library</groupId>
-            <artifactId>common-library</artifactId>
+            <artifactId>exception-library</artifactId>
         </dependency>
             
 		<!-- SPRING DEPENDENCIES -->
