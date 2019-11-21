@@ -15,13 +15,9 @@
 
 	<dependencies>
         <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger2</artifactId>
+            <groupId>com.abeldevelop.architecture.library</groupId>
+            <artifactId>pagination-library</artifactId>
         </dependency>
-		<dependency>
-		    <groupId>javax.validation</groupId>
-		    <artifactId>validation-api</artifactId>
-		</dependency>
 	</dependencies>
 
 	<build>
