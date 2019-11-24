@@ -4,16 +4,15 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.abeldevelop.architecture</groupId>
-		<artifactId>abeldevelop-parent-pom</artifactId>
+		<groupId>com.abeldevelop.architecture.starter</groupId>
+		<artifactId>abeldevelop-starters-parent-pom</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-    <groupId>com.abeldevelop.architecture.starter</groupId>
     <artifactId>repository-starter</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
 
 	<dependencies>
+		<!-- SPRING DEPENDENCIES -->
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-commons</artifactId>
@@ -22,6 +21,8 @@
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-jpa</artifactId>
         </dependency>
+		
+		<!-- JAVAX DEPENDENCIES -->
         <dependency>
             <groupId>javax.persistence</groupId>
             <artifactId>javax.persistence-api</artifactId>
