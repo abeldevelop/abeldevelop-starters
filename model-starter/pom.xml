@@ -16,6 +16,12 @@
     </properties>
 
 	<dependencies>
+		<!-- ABELDEVELOP DEPENDENCIES -->
+		<dependency>
+            <groupId>com.abeldevelop.architecture.library</groupId>
+            <artifactId>property-library</artifactId>
+		</dependency>
+		
 		<!-- JAVAX DEPENDENCIES -->
          <dependency>
             <groupId>javax.persistence</groupId>
