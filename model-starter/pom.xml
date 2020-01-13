@@ -19,7 +19,7 @@
 		<!-- ABELDEVELOP DEPENDENCIES -->
 		<dependency>
             <groupId>com.abeldevelop.architecture.library</groupId>
-            <artifactId>property-library</artifactId>
+            <artifactId>model-library</artifactId>
 		</dependency>
 		
 		<!-- JAVAX DEPENDENCIES -->
